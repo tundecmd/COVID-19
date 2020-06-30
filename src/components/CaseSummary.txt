@@ -1,0 +1,171 @@
+import React from 'react'
+
+function CaseSummary() {
+    return (
+        <div className="table-responsive">
+            <table class="table table-striped table-hover">
+                <thead className='thead-light'>
+                    <tr>
+                        <th scope="col">States Affected</th>
+                        <th scope="col">No. of Cases (Lab Confirmed)</th>
+                        <th scope="col">No. of Active Cases</th>
+                        <th scope="col">No. Discharged</th>
+                        <th scope="col">No. of Deaths</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr scope='row'>
+                        <td scope='row'>Lagos</td>
+                        <td>174</td>
+                        <td>119</td>
+                        <td>50</td>
+                        <td>5</td>
+                    </tr>
+                    <tr scope='row'>
+                        <td>Abuja FCT</td>
+                        <td>56</td>
+                        <td>43</td>
+                        <td>11</td>
+                        <td>2</td>
+                    </tr>
+                    <tr scope='row'>
+                        <td>Osun</td>
+                        <td>20</td>
+                        <td>19</td>
+                        <td>1</td>
+                        <td>0</td>
+                    </tr>
+                    <tr scope='row'>
+                        <td>Edo</td>
+                        <td>12</td>
+                        <td>11</td>
+                        <td>0</td>
+                        <td>1</td>
+                    </tr>
+                    <tr scope='row'>
+                        <td>Oyo</td>
+                        <td>11</td>
+                        <td>7</td>
+                        <td>4</td>
+                        <td>0</td>
+                    </tr>
+                    <tr scope='row'>
+                        <td>Ogun</td>
+                        <td>7</td>
+                        <td>5</td>
+                        <td>2</td>
+                        <td>0</td>
+                    </tr>
+                    <tr scope='row'>
+                        <td>Bauchi</td>
+                        <td>6</td>
+                        <td>6</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr scope='row'>
+                        <td>Kaduna</td>
+                        <td>6</td>
+                        <td>6</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr scope='row'>
+                        <td>Akwa Ibom</td>
+                        <td>5</td>
+                        <td>5</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr scope='row'>
+                        <td>Katsina</td>
+                        <td>4</td>
+                        <td>3</td>
+                        <td>0</td>
+                        <td>1</td>
+                    </tr>
+                    <tr scope='row'>
+                        <td>Delta</td>
+                        <td>3</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>1</td>
+                    </tr>
+                    <tr scope='row'>
+                        <td>Enugu</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr scope='row'>
+                        <td>Ekiti</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>0</td>
+                    </tr>
+                    <tr scope='row'>
+                        <td>Kwara</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr scope='row'>
+                        <td>Rivers</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>0</td>
+                    </tr>
+                    <tr scope='row'>
+                        <td>Ondo</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr scope='row'>
+                        <td>Benue</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr scope='row'>
+                        <td>Niger</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr scope='row'>
+                        <td>Anambra</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr scope='row'>
+                        <td>Kano</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr scope='row'>
+                        <td>Total</td>
+                        <td>318</td>
+                        <td>238</td>
+                        <td>70</td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+                
+            </table>
+        </div>
+    )
+}
+
+export default CaseSummary

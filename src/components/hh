@@ -1,0 +1,15 @@
+ axios 
+    .all([
+      axios.get('https://corona.lmao.ninja/v2/all'),
+      axios.get('https://corona.lmao.ninja/v2/countries')
+    ])
+    .then(function (resArr) {
+      // handle success
+      setLatest(resArr[0].data);
+      setResults(resArr[1].data);
+    })
+    .catch(function (err) {
+      // handle error
+      console.log(err);
+    });
+  }, [])
