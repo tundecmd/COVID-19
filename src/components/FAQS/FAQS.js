@@ -6,11 +6,8 @@ import { CovidContext } from '../contexts/covid-context';
 
 const faqs = FAQS_DATA
 
-
-
 const FAQS = ({id}) => {
         const { lastUpdated } = useContext(CovidContext);
-        console.log(lastUpdated);
             const faqList = faqs.map(faq => {
                 return(
                     <div>

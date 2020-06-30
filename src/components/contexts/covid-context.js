@@ -37,7 +37,7 @@ const CovidContextProvider = props => {
 
         // countries effect 
         useEffect(() => {
-            async function fetchData2() {
+            async function fetchData() {
                 try {
                         const res = await axios.get('https://disease.sh/v2/countries');
                         const { data } = res;
@@ -46,21 +46,7 @@ const CovidContextProvider = props => {
                     throw new Error()
                 }
             }
-            fetchData2()
-        }, [])
-
-         // continents effect 
-         useEffect(() => {
-            async function fetchData3() {
-                try {
-                        const res = await axios.get('https://disease.sh/v2/continents');
-                        const { data } = res;
-                        console.log(data);
-                } catch (e) {
-                    throw new Error()
-                }
-            }
-            fetchData3()
+            fetchData()
         }, [])
 
     return (

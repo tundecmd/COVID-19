@@ -5,9 +5,9 @@ const Navbar = () => {
     return (
         <nav className='nav-wrapper grey darken-3'>
             <div className="container">
-                <Link to='/' className='brand-logo'>
+                <div className='brand-logo red-text'>
                     COVID One Nine
-                </Link>
+                </div>
             </div>
         </nav>
     )
