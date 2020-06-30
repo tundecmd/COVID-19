@@ -18,6 +18,7 @@ const App = () => {
           <WorldUpdates />
           <SearchForm />
           <CountryList />
+          <FAQS />
         </div>
       </BrowserRouter>
   )

@@ -50,9 +50,7 @@ const CountryList = () => {
     return (
         <div>
             <Columns queries={queries}>
-                <FAQS />
                 { filteredCountriesArray }
-                <FAQS />
             </Columns>
         </div>
     )
